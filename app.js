@@ -78,7 +78,7 @@ function recordTime(){
 }
 
 function msToTime(duration) {
-    let milliseconds = parseInt((duration%1000)/(1000/60))
+    let milliseconds = parseInt((duration%1000)/10)
         , seconds = parseInt((duration/1000)%60)
         , minutes = parseInt((duration/(1000*60))%60)
         , hours = parseInt((duration/(1000*60*60))%24);
