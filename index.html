@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Stopwatch demo</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+
+<div class="wrapper">
+    <header><h1>Stopwatch demo</h1></header>
+    <section role="main">
+        <div id="timerTime">00:00:00:00</div>
+        <div class="timer-buttons">
+            <button id="toggleTimer">Start/Stop</button>
+            <button id="resetTimer">Reset</button>
+            <button id="recordTimer">Record Time</button>
+        </div>
+        <div class="timer-recorded">
+            <h3>Past Times</h3>
+            <ul id="recordedTimes"></ul>
+        </div>
+    </section>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
